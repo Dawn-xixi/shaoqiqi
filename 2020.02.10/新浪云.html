@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            width: 1200px;
+            margin: 0px auto;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+
+        .right ul li {
+            color: aliceblue;
+            margin-top: 12px;
+            margin-left: 15px;
+            font-weight: bold;
+        }
+
+        .card1 {
+            display: flex;
+
+        }
+
+        @media(min-width:768px) {
+            .body1 {
+                display: flex;
+            }
+
+            .body img {
+                width: 300px;
+                height: 300px;
+            }
+
+            .body1 {
+                justify-content: space-between;
+            }
+
+            #img2 {
+                margin-left: 90px;
+            }
+
+            .card-deck img {
+                width: 100px;
+                height: 100px;
+                margin: auto;
+                margin-top: 10px;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!--导航部分-->
+        <div class="header-nav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                <img src="./img/logo.png" alt="" class="border-0 bg-primary ">
+                </button>
+                <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+                    <div class="left">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#" style="color: #eeeeee;  font-weight: bold;">首页 <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: #eeeeee;font-weight: bold;">产品</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: #eeeeee;  font-weight: bold;">支持中心</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: #eeeeee;  font-weight: bold;">价格</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: #eeeeee;  font-weight: bold;">成功案例</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: #eeeeee;  font-weight: bold;">社区</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="right">
+                        <ul class="d-flex ">
+                            <li>微博登录</li>
+                            <li>|</li>
+                            <li>微博注册</li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon " style="color: #eeeeee;"></span>
+                </button>
+            </nav>
+            <!--轮播图-->
+            <div id="carouselExampleIndicators" class="carousel slide m-0" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <!--内容部分-->
+        <div class="body">
+            <div class="body1" style="margin: 10px;">
+                <div class="card d-flex justify-content-center border-0"
+                    style="width: 18rem;align-self: center;margin-right: 123px;">
+                    <img src="./img/cont1.png" class="card-img-top d-flex justify-content-center">
+                    <div class="card-body" style="align-self: center;">
+                        <p class="card-text" style="color: rgb(45, 157, 248);">SAE</p>
+                        <p class="card-text"><small class="text-muted">云应用</small></p>
+                    </div>
+                </div>
+                <div class="text-col " style="margin-top: 22px;">
+                    <h5 class="card-title">应用开发、优化运行得PaaS计算平台</h5>
+                    <p class="card-text ">
+                        <small
+                            class="text-muted">国内第一家公有云计算平台，支持PHP、Java、Python语言，提供Web应用开发所需得众多服务，国内最好得PaaS云计算平台</small>
+                    </p>
+                    <div class="card-text ulli">
+                        <small class="text-muted ">
+                            <ul>
+                                <li>弹性狂战</li>
+                                <li>山乡技术隔离应用</li>
+                                <li>无序运维</li>
+                            </ul>
+                        </small>
+                        <small class="text-muted ">
+                            <ul>
+                                <li>防火墙防止攻击</li>
+                                <li>99.95%SLA</li>
+                                <li>免费配额</li>
+                            </ul>
+                        </small>
+                    </div>
+                    <button class="btn bg-primary text-white mt-3" style="margin-left: -14px;">了解详情</button>
+                </div>
+            </div>
+
+
+            <div class=" body1" style="margin: 10px;">
+                <div class="text-col " style="margin-top: 22px;">
+                    <h5 class="card-title">应用开发、优化运行得PaaS计算平台</h5>
+                    <p class="card-text ">
+                        <small
+                            class="text-muted">国内第一家公有云计算平台，支持PHP、Java、Python语言，提供Web应用开发所需得众多服务，国内最好得PaaS云计算平台</small>
+                    </p>
+                    <div class="card-text ulli">
+                        <small class="text-muted ">
+                            <ul>
+                                <li>弹性狂战</li>
+                                <li>山乡技术隔离应用</li>
+                                <li>无序运维</li>
+                            </ul>
+                        </small>
+                        <small class="text-muted ">
+                            <ul>
+                                <li>防火墙防止攻击</li>
+                                <li>99.95%SLA</li>
+                                <li>免费配额</li>
+                            </ul>
+                        </small>
+                    </div>
+                    <button class="btn bg-primary text-white mt-3" style="margin-left: -14px;">了解详情</button>
+                </div>
+                <div class="card d-flex justify-content-center border-0 "
+                    style="width: 18rem;align-self: center;margin-right: 123px;">
+                    <img src="./img/cont2.png" class="card-img-top d-flex justify-content-center " id="img2">
+                    <div class="card-body" style="align-self: center;">
+                        <p class="card-text" style="color: rgb(45, 157, 248);">SAE</p>
+                        <p class="card-text"><small class="text-muted">云应用</small></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="body1" style="margin: 10px;">
+                <div class="card d-flex justify-content-center border-0"
+                    style="width: 18rem;align-self: center;margin-right: 123px;">
+                    <img src="./img/cont1.png" class="card-img-top d-flex justify-content-center">
+                    <div class="card-body" style="align-self: center;">
+                        <p class="card-text" style="color: rgb(45, 157, 248);">SAE</p>
+                        <p class="card-text"><small class="text-muted">云应用</small></p>
+                    </div>
+                </div>
+                <div class="text-col " style="margin-top: 22px;">
+                    <h5 class="card-title">应用开发、优化运行得PaaS计算平台</h5>
+                    <p class="card-text ">
+                        <small
+                            class="text-muted">国内第一家公有云计算平台，支持PHP、Java、Python语言，提供Web应用开发所需得众多服务，国内最好得PaaS云计算平台</small>
+                    </p>
+                    <div class="card-text ulli">
+                        <small class="text-muted ">
+                            <ul>
+                                <li>弹性狂战</li>
+                                <li>山乡技术隔离应用</li>
+                                <li>无序运维</li>
+                            </ul>
+                        </small>
+                        <small class="text-muted ">
+                            <ul>
+                                <li>防火墙防止攻击</li>
+                                <li>99.95%SLA</li>
+                                <li>免费配额</li>
+                            </ul>
+                        </small>
+                    </div>
+                    <button class="btn bg-primary text-white mt-3" style="margin-left: -14px;">了解详情</button>
+                </div>
+            </div>
+
+
+
+            <div class=" body1" style="margin: 10px;">
+                <div class="text-col " style="margin-top: 22px;">
+                    <h5 class="card-title">应用开发、优化运行得PaaS计算平台</h5>
+                    <p class="card-text ">
+                        <small
+                            class="text-muted">国内第一家公有云计算平台，支持PHP、Java、Python语言，提供Web应用开发所需得众多服务，国内最好得PaaS云计算平台</small>
+                    </p>
+                    <div class="card-text ulli">
+                        <small class="text-muted ">
+                            <ul>
+                                <li>弹性狂战</li>
+                                <li>山乡技术隔离应用</li>
+                                <li>无序运维</li>
+                            </ul>
+                        </small>
+                        <small class="text-muted ">
+                            <ul>
+                                <li>防火墙防止攻击</li>
+                                <li>99.95%SLA</li>
+                                <li>免费配额</li>
+                            </ul>
+                        </small>
+                    </div>
+                    <button class="btn bg-primary text-white mt-3" style="margin-left: -14px;">了解详情</button>
+                </div>
+                <div class="card d-flex justify-content-center border-0 "
+                    style="width: 18rem;align-self: center;margin-right: 123px;">
+                    <img src="./img/cont4.png" class="card-img-top d-flex justify-content-center " id="img2">
+                    <div class="card-body" style="align-self: center;">
+                        <p class="card-text" style="color: rgb(45, 157, 248);">SAE</p>
+                        <p class="card-text"><small class="text-muted">云应用</small></p>
+                    </div>
+                </div>
+            </div>
+            <!--视频区域-->
+            <div class="img">
+                <img src="./img/video.png" class="w-100" alt="">
+            </div>
+            <!--卡组-->
+            <div>
+                <div>
+                    <p>
+                        <h2 style="color: #7e7c7c;">成功案例</h2>
+                    </p>
+                    <div class="card-deck border-0">
+                        <div class="card h-50 border-0">
+                            <img src="./img/icon1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">多层防护,多层备份,24小时全方位监控,放心托管您的应用与网站</p>
+                            </div>
+                        </div>
+                        <div class="card h-50 border-0">
+                            <img src="./img/icon1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">多层防护,多层备份,24小时全方位监控,放心托管您的应用与网站</p>
+                            </div>
+                        </div>
+                        <div class="card h-50 border-0">
+                            <img src="./img/icon1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">多层防护,多层备份,24小时全方位监控,放心托管您的应用与网站</p>
+                            </div>
+                        </div>
+                        <div class="card h-50 border-0">
+                            <img src="./img/icon1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">多层防护,多层备份,24小时全方位监控,放心托管您的应用与网站</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p>
+                <h2 style="color: #7e7c7c;">成功案例</h2>
+            </p>
+            <div class="body1" style="margin: 10px;">
+
+                <div class="card d-flex justify-content-center border-0"
+                    style="width: 18rem;align-self: center;margin-right: 123px;">
+                    <img src="./img/typical.png" class="  w-100">
+
+                </div>
+                <div class="text-col " style="margin-top: 22px;">
+                    <p class="card-text ">
+                        <small class="text-muted">SAE作为公有云服务，其整体架构具有高可靠性和高安全性，并具备专业的团队来负责安全及运营维护工作，因而极大地简化了项目组部署和维护工作，
+                            使得项目组能集中精力于核心业务的开发，为用户提供更好的体验。</small>
+                    </p>
+
+                </div>
+            </div>
+            <div class="footer mt-5">
+                <div class="row d-flex justify-content-around">
+                    <div col-2>
+                        <ul>
+                            <li>
+                                <h3>产品</h3>
+                            </li>
+                            <li><a href="">云应用 SAE</a> </li>
+                            <li><a href="">云应用 SAE</a> </li>
+                            <li><a href="">云应用 SAE</a> </li>
+                            <li><a href="">云应用 SAE</a> </li>
+                            <li><a href="">云应用 SAE</a> </li>
+                        </ul>
+                    </div>
+
+                    <div col-2>
+                        <ul>
+                            <li>
+                                <h3>支持中心</h3>
+                            </li>
+                            <li><a href="">产品文档 </a> </li>
+                            <li><a href="">常见问题 </a> </li>
+                            <li><a href="">工单 </a> </li>
+                            <li><a href="">账户等级</a> </li>
+                            <li><a href="">新浪云论坛</a> </li>
+                            <li><a href="">学习资料</a> </li>
+                            <li><a href="">联系我们</a> </li>
+                        </ul>
+                    </div>
+
+                    <div col-2>
+                        <ul>
+                            <li>
+                                <h3>成功案例</h3>
+                            </li>
+                            <li><a href="">游戏</a> </li>
+                            <li><a href="">移动</a> </li>
+                            <li><a href="">教育</a> </li>
+                            <li><a href="">金融</a> </li>
+                            <li><a href="">社交</a> </li>
+                            <li><a href="">传统行业</a> </li>
+
+
+                        </ul>
+                    </div>
+
+                    <div col-2>
+                        <ul>
+                            <li>
+                                <h3>关于我们</h3>
+                            </li>
+                            <li><a href="">招聘信息</a> </li>
+                            <li><a href="">备案指引</a> </li>
+                            <li><a href="">用户协议</a> </li>
+                            <li><a href="">信息举报</a> </li>
+                        </ul>
+                    </div>
+
+                    <div col-2>
+                        <ul>
+                            <li>
+                                <h3>关于新浪云</h3>
+                            </li>
+                            <li>掌上sea客户端</li>
+                            <li><img src="./img/sao.png" alt=""></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div col-2>
+                        <ul>
+                            <li>
+                                <h3>可信云认证</h3>
+                            </li>
+                          <li><img src="./img/kexinyun.png" alt=""></li>
+                          <li style="color: rgb(63, 129, 230);">
+                            对象存储服务 NO：02005</br>
+                            对象存储服务 NO：02005</br>
+                            对象存储服务 NO：02005</br>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
