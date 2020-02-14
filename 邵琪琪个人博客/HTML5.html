@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>HTML5</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    nav {
+      background-color: rgb(133, 113, 133);
+      color: aliceblue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid p-0 vh-100">
+    <!--头部-->
+    <div class="header">
+      <!--导航条-->
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <img src="./img/头像.jpg" alt="" style="width: 50px; height: 50px; border-radius: 50%;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">首页 <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link" href="HTML5.html">HTML5 <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link" href="CSS3.html">CSS3 <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link" href="JavaScript.html">JavaScript<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item ">
+              <a class="nav-link" href="jQuery.html">jQuery<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Bootstrap
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Bootstrap3.html">Bootstrap3</a>
+                <a class="dropdown-item" href="Bootstrap4.html">Bootstrap4</a>
+              </div>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="./页面优化.html">页面优化<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--内容-->
+    <div class="body mt-5">
+      <div class="row h-100">
+        <div class="col-2">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+              href="#list-home" role="tab" aria-controls="home">编辑器 VSCode</a>
+            <a class="list-group-item list-group-item-action" id="list-1-list" data-toggle="list" href="#list-profile"
+              role="tab" aria-controls="profile">常用 HTML 标签</a>
+            <a class="list-group-item list-group-item-action" id="list-2-list" data-toggle="list" href="#list-messages"
+              role="tab" aria-controls="messages">常用实体</a>
+            <a class="list-group-item list-group-item-action" id="list-3-list" data-toggle="list" href="#list-settings"
+              role="tab" aria-controls="settings">带默认风格的标签</a>
+            <a class="list-group-item list-group-item-action" id="list-4-list" data-toggle="list" href="#list-settings"
+              role="tab" aria-controls="settings">FAQ</a>
+          </div>
+        </div>
+        <div class="col-10 ">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-1-list">
+              <ul>
+                <li>
+                  <h2>常用插件</h2>
+                </li>
+                <li></li>
+                <li>Chinese (Simplified) Language Pack for Visual Studio Code 简体中文语言包</li>
+                <li>Live Server 提供内置WEB服务器，模拟在真实服务器中打开网页</li>
+                <li>open in browser 在浏览器中打开网页</li>
+              </ul>
+              <ul>
+                <li>
+                  <h2>常用快捷键</h2>
+                </li>
+                <li></li>
+                <li>格式化：ctrl+alt+f</li>
+                <li>放大：ctrl++</li>
+                <li>缩小：ctrl+-</li>
+                <li>隐藏/显示侧边栏：ctrl+b</li>
+                <li>资源管理器：ctrl+shift+e</li>
+                <li>插件管理器：ctrl+shift+x</li>
+                <li>全局搜索框：ctrl+shift+f</li>
+                <li>页内搜索框：ctrl+f</li>
+                <li>隐藏/显示终端：ctrl+`</li>
+              </ul>
+
+
+
+            </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-2-list">...</div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-3-list">...</div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-4-list">...</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
