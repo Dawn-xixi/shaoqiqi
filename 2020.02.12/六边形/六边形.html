@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .lbx {
+    width: 1200px;
+    margin: 20px auto;
+    position: relative;
+    height: 100%;
+  }
+
+  .first_1,
+  .first_1::before,
+  .first_1::after {
+    width: 87px;
+    height: 150px;
+    border-top: 1px solid #000;
+    ;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+  }
+
+  .first_1::before,
+  .first_1::after {
+    content: ' ';
+    left: -1px;
+    top: -1px;
+    display: block;
+  }
+
+  .first_1::before {
+    transform: rotate(-60deg);
+  }
+
+  .first_1::after {
+    transform: rotate(60deg);
+  }
+
+  .first_2,
+  .first_2::before,
+  .first_2::after {
+    width: 87px;
+    height: 150px;
+    border-top: 1px solid #000;
+    ;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    top: 126px;
+    left: 229px;
+  }
+
+  .first_2::before,
+  .first_2::after {
+    content: ' ';
+    left: -1px;
+    top: -1px;
+    display: block;
+  }
+
+  .first_2::before {
+    transform: rotate(-60deg);
+  }
+
+  .first_2::after {
+    transform: rotate(60deg);
+  }
+
+  .first_3,
+  .first_3::before,
+  .first_3::after {
+    width: 87px;
+    height: 150px;
+    border-top: 1px solid #000;
+    ;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    ;
+    top: 200px;
+    left: 100px;
+  }
+
+  .first_3::before,
+  .first_3::after {
+    content: ' ';
+    left: -1px;
+    top: -1px;
+    display: block;
+  }
+
+  .first_3::before {
+    transform: rotate(-60deg);
+  }
+
+  .first_3::after {
+    transform: rotate(60deg);
+  }
+
+
+  .first_4,
+  .first_4::before,
+  .first_4::after {
+    width: 87px;
+    height: 150px;
+    border-top: 1px solid #000;
+    ;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    top: 425px;
+    left: 230px;
+  }
+
+  .first_4::before,
+  .first_4::after {
+    content: ' ';
+    left: -1px;
+    top: -1px;
+    display: block;
+  }
+
+  .first_4::before {
+    transform: rotate(-60deg);
+  }
+
+  .first_4::after {
+    transform: rotate(60deg);
+  }
+
+  .first_5,
+  .first_5::before,
+  .first_5::after {
+    width: 87px;
+    height: 150px;
+    border-top: 1px solid #000;
+    ;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    ;
+    top: 500px;
+    left: 360px;
+  }
+
+  .first_5::before,
+  .first_5::after {
+    content: ' ';
+    left: -1px;
+    top: -1px;
+    display: block;
+  }
+
+  .first_5::before {
+    transform: rotate(-60deg);
+  }
+
+  .first_5::after {
+    transform: rotate(60deg);
+  }
+
+  .first_6,
+  .first_6::before,
+  .first_6::after {
+    width: 87px;
+    height: 150px;
+    border-top: 1px solid #000;
+    ;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    ;
+    top: 425px;
+    left: 490px;
+  }
+
+  .first_6::before,
+  .first_6::after {
+    content: ' ';
+    left: -1px;
+    top: -1px;
+    display: block;
+  }
+
+  .first_6::before {
+    transform: rotate(-60deg);
+  }
+
+  .first_6::after {
+    transform: rotate(60deg);
+  }
+
+  .first_7,
+  .first_7::before,
+  .first_7::after {
+    width: 87px;
+    height: 150px;
+    border-top: 1px solid #000;
+    ;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    ;
+    top: 500px;
+    left: 620px;
+  }
+
+  .first_7::before,
+  .first_7::after {
+    content: ' ';
+    left: -1px;
+    top: -1px;
+    display: block;
+  }
+
+  .first_7::before {
+    transform: rotate(-60deg);
+  }
+
+  .first_7::after {
+    transform: rotate(60deg);
+  }
+
+
+  .first_8,
+  .first_8::before,
+  .first_8::after {
+    width: 87px;
+    height: 150px;
+    border-top: 1px solid #000;
+    ;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    ;
+    top: 425px;
+    left: 750px;
+  }
+
+  .first_8::before,
+  .first_8::after {
+    content: ' ';
+    left: -1px;
+    top: -1px;
+    display: block;
+  }
+
+  .first_8::before {
+    transform: rotate(-60deg);
+  }
+
+  .first_8::after {
+    transform: rotate(60deg);
+  }
+
+
+  .first_9,
+  .first_9::before,
+  .first_9::after {
+    width: 87px;
+    height: 150px;
+    border-top: 1px solid #000;
+    ;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    ;
+    top: 350px;
+    left: 620px;
+  }
+
+  .first_9::before,
+  .first_9::after {
+    content: ' ';
+    left: -1px;
+    top: -1px;
+    display: block;
+  }
+
+  .first_9::before {
+    transform: rotate(-60deg);
+  }
+
+  .first_9::after {
+    transform: rotate(60deg);
+  }
+
+
+  .first_10,
+  .first_10::before,
+  .first_10::after {
+    width: 87px;
+    height: 150px;
+    border-top: 1px solid #000;
+    ;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    ;
+    top: 275px;
+    left: 490px;
+  }
+
+  .first_10::before,
+  .first_10::after {
+    content: ' ';
+    left: -1px;
+    top: -1px;
+    display: block;
+  }
+
+  .first_10::before {
+    transform: rotate(-60deg);
+  }
+
+  .first_10::after {
+    transform: rotate(60deg);
+  }
+
+  .first_11,
+  .first_11::before,
+  .first_11::after {
+    width: 87px;
+    height: 150px;
+    border-top: 1px solid #000;
+    ;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    ;
+    top: 275px;
+    left: 750px;
+  }
+
+  .first_11::before,
+  .first_11::after {
+    content: ' ';
+    left: -1px;
+    top: -1px;
+    display: block;
+  }
+
+  .first_11::before {
+    transform: rotate(-60deg);
+  }
+
+  .first_11::after {
+    transform: rotate(60deg);
+  }
+
+
+  .first_12,
+  .first_12::before,
+  .first_12::after {
+    width: 87px;
+    height: 150px;
+    border-top: 1px solid #000;
+    ;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    ;
+    top: 200px;
+    left: 620px;
+  }
+
+  .first_12::before,
+  .first_12::after {
+    content: ' ';
+    left: -1px;
+    top: -1px;
+    display: block;
+  }
+
+  .first_12::before {
+    transform: rotate(-60deg);
+  }
+
+  .first_12::after {
+    transform: rotate(60deg);
+  }
+
+  .first_13,
+  .first_13::before,
+  .first_13::after {
+    width: 87px;
+    height: 150px;
+    border-top: 1px solid #000;
+    ;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    ;
+    top: 125px;
+    left: 490px;
+  }
+
+  .first_13::before,
+  .first_13::after {
+    content: ' ';
+    left: -1px;
+    top: -1px;
+    display: block;
+  }
+
+  .first_13::before {
+    transform: rotate(-60deg);
+  }
+
+  .first_13::after {
+    transform: rotate(60deg);
+  }
+</style>
+
+<body>
+
+  <div class="lbx">
+    <div class="first_1">1</div>
+    <div class="first_2">2</div>
+    <div class="first_3">3</div>
+    <div class="first_4">4</div>
+    <div class="first_5">5</div>
+    <div class="first_6">6</div>
+    <div class="first_7">7</div>
+    <div class="first_8">8</div>
+    <div class="first_9">9</div>
+    <div class="first_10">10</div>
+    <div class="first_11">11</div>
+    <div class="first_12">12</div>
+    <div class="first_13">13</div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
