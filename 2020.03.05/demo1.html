@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待办事项作业</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+<style>
+    body{
+        width: 1200px;
+        margin: 0px auto;
+    }
+  #dai{
+  border: 1px solid;
+  margin: 0px auto;
+  }
+</style>
+</head>
+
+<body>
+    <div id="dai" style="width: 400px;">
+        <div class="container pt-5">
+            <div class="card">
+                <div class="card-header text-center" style="background-color: black;color: white;">
+                    <h4 class="card-title" style="margin-top: 15px;">待办事项</h4>
+                </div>
+                <div class="card-body">
+                    <ul class="list-gruop list-group-flush px-0 m-0">
+                        <li class="list-group-item d-flex pl-5" v-for="item,index in items" :key="item.id">
+                            <div class="custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" :id="`item${item.id}`"
+                                    :checked="item.state?'checked':''" disabled>
+                                <label class="custom-control-label" :for="`item${item.id}`"></label>
+                            </div>
+                            <span class="mr-auto">{{ index+1 }}-{{ item.title }}</span>
+                            <button class="btn btn-sm mr-1" v-if="!item.state"
+                                @click="scuccess(index)">完成</button>
+                            <button class="btn  btn-sm" @click="del(i)">删除</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer bg-transparent">
+                    <div class="input-group">
+                        <input type="text"  placeholder="编号" v-model="item.id">
+                        <input type="text" placeholder="待办事项" v-model="item.title">
+                        <div class="input-group-append">
+                            <button class="btn " @click="add">添加</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        let dai = new Vue({
+            el: "#dai",
+            data: {
+                item: { id: '', title: '', state: false },
+                items: [
+                    { id: 1, title: '待办事项-1', state: false },
+                    { id: 2, title: '待办事项-2', state: false },
+                    { id: 3, title: '待办事项-3', state: false },
+                    { id: 4, title: '待办事项-4', state: false },
+                    { id: 5, title: '待办事项-5', state: false },
+                ]
+            },
+            methods: {
+                scuccess(index) {
+                    this.items[index].state = true
+                },
+                del(i) {
+                    this.items.splice(i, 1)
+                },
+                add() {
+                    let { id, title, state } = this.item
+                    this.items.push({ id: id, title: title, state: false })
+                    this.item = {}
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
