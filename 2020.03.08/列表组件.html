@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        *{margin: 0px;padding: 0px;}
+        body{width: 500px;margin: 0px auto;}
+    </style>
+  </head>
+  <body>
+      <div id="vm">
+         
+        <aa></aa>
+      </div>
+        <template id="tem">
+            <div class="card mt-4">
+                <div class="card-header bg-dark text-white text-center">
+                    <div class="card-title">
+                        <h4>待办理事务</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex" v-for="(item,index) in items">
+                            <div class="custom-checkbox mr-auto">
+                                <input type="checkbox" class="form-check-input" id="checkbox" disabled v-model="item.state"/>
+                                <label for="checkbox">{{index+1}}-{{item.title}}</label>
+                            </div>                                                                        
+                            <button type="button" class="btn btn-success mr-1" v-if="!item.state" v-on:click="item.state=true">完成</button>
+                            <button type="button" class="btn btn-danger" v-on:click="splice">删除</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer bg-white">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="请填写" v-model="msg"/>
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" v-on:click="add">添加</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script>
+       
+       Vue.component('aa',{
+           template:'#tem',
+           data:function(){
+               return{
+                items:[
+                    {index:1,title:'代办事务1',state:false},
+                    {index:2,title:'代办事务2',state:true},
+                    {index:3,title:'代办事务3',state:false}
+                ],
+                msg:''
+               }
+           },
+           methods:{
+            splice(){
+                    this.items.splice(this.index,1)
+                },
+               add(){
+                   this.items.push({title:this.msg,state:false})
+                  
+               }
+           }
+       })
+
+        let vm=new Vue({
+            el:'#vm'
+        })
+    </script>
+  </body>
+</html>
