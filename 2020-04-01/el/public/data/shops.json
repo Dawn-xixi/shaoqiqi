@@ -1,0 +1,380 @@
+[
+    {
+        "img":"/images/shop/1.jpg",
+        "title":"黄记煌三汁焖锅(三胞店)",
+        "isBrand":false,
+        "rate":4,
+        "sales":51,
+        "startPrice":0,
+        "freight":9,
+        "distance":"985m",
+        "innerTime":"30分钟",
+        "type":"麻辣香锅",
+        "promotesale":[
+            {"type":"jian","icon":"减","title":"满20元减11元 满38减13元"},
+            {"type":"pei","icon" :"配","title":"配送费立减2元"},
+            {"type":"zhe","icon":"折","title":"折扣商品5折起"},
+            {"type":"te","icon":"特","title":"特价商品1元起"},
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减7元"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/2.jpg",
+        "title":"叫了个炸鸡吃(金地店)",
+        "isBrand":false,
+        "rate":4.8,
+        "sales":459,
+        "startPrice":15,
+        "freight":0.5,
+        "distance":"1.2km",
+        "innerTime":"30分钟",
+        "type":"炸鸡炸串",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减11元"},
+            {"type":"jian","icon":"减","title":"满38元减8元 满48减20元"},
+            {"type":"pei","icon" :"配","title":"配送费立减3元"},
+            {"type":"sou","icon":"首","title":"首次光顾本店立减3元"},
+            {"type":"te","icon":"特","title":"特价商品9.9起"},
+            {"type":"piao","icon":"票","title":"该商家支持开发票,请在下单时填好"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/3.jpg",
+        "title":"吉祥混沌(复兴苏宁广场店)",
+        "isBrand":false,
+        "rate":4.7,
+        "sales":413,
+        "startPrice":15,
+        "freight":0.5,
+        "distance":"3.25km",
+        "innerTime":"30分钟",
+        "type":"馄饨抄手",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减7元"},
+            {"type":"jian","icon":"减","title":"满20元减2元 满35减7元"},
+            {"type":"pei","icon" :"配","title":"配送费立减3元"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/4.jpg",
+        "title":"满口香龙虾(徐州店)",
+        "isBrand":false,
+        "rate":4.3,
+        "sales":240,
+        "startPrice":15,
+        "freight":0.5,
+        "distance":"1.56km",
+        "innerTime":"30分钟",
+        "type":"龙虾烧烤",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减7元"},
+            {"type":"jian","icon":"减","title":"满20元减2元 满35减7元"},
+            {"type":"pei","icon" :"配","title":"配送费立减3元"},
+            {"type":"te","icon" :"特","title":"特价商品1.99元起"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/5.jpeg",
+        "title":"肯德基宅急送(徐州沃尔...)",
+        "isBrand":true,
+        "rate":4.7,
+        "sales":237,
+        "startPrice":0,
+        "freight":9,
+        "distance":"641m",
+        "innerTime":"30分钟",
+        "type":"汉堡薯条",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减17元"},
+            {"type":"te","icon" :"特","title":"特价商品5元起"}
+        ]
+
+    },{
+        "img":"/images/shop/1.jpg",
+        "title":"黄记煌三汁焖锅(三胞店)",
+        "isBrand":false,
+        "rate":4,
+        "sales":51,
+        "startPrice":0,
+        "freight":9,
+        "distance":"985m",
+        "innerTime":"30分钟",
+        "type":"麻辣香锅",
+        "promotesale":[
+            {"type":"jian","icon":"减","title":"满20元减11元 满38减13元"},
+            {"type":"pei","icon" :"配","title":"配送费立减2元"},
+            {"type":"zhe","icon":"折","title":"折扣商品5折起"},
+            {"type":"te","icon":"特","title":"特价商品1元起"},
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减7元"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/2.jpg",
+        "title":"叫了个炸鸡吃(金地店)",
+        "isBrand":false,
+        "rate":4.8,
+        "sales":459,
+        "startPrice":15,
+        "freight":0.5,
+        "distance":"1.2km",
+        "innerTime":"30分钟",
+        "type":"炸鸡炸串",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减11元"},
+            {"type":"jian","icon":"减","title":"满38元减8元 满48减20元"},
+            {"type":"pei","icon" :"配","title":"配送费立减3元"},
+            {"type":"sou","icon":"首","title":"首次光顾本店立减3元"},
+            {"type":"te","icon":"特","title":"特价商品9.9起"},
+            {"type":"piao","icon":"票","title":"该商家支持开发票,请在下单时填好"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/3.jpg",
+        "title":"吉祥混沌(复兴苏宁广场店)",
+        "isBrand":false,
+        "rate":4.7,
+        "sales":413,
+        "startPrice":15,
+        "freight":0.5,
+        "distance":"3.25km",
+        "innerTime":"30分钟",
+        "type":"馄饨抄手",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减7元"},
+            {"type":"jian","icon":"减","title":"满20元减2元 满35减7元"},
+            {"type":"pei","icon" :"配","title":"配送费立减3元"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/4.jpg",
+        "title":"满口香龙虾(徐州店)",
+        "isBrand":false,
+        "rate":4.3,
+        "sales":240,
+        "startPrice":15,
+        "freight":0.5,
+        "distance":"1.56km",
+        "innerTime":"30分钟",
+        "type":"龙虾烧烤",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减7元"},
+            {"type":"jian","icon":"减","title":"满20元减2元 满35减7元"},
+            {"type":"pei","icon" :"配","title":"配送费立减3元"},
+            {"type":"te","icon" :"特","title":"特价商品1.99元起"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/5.jpeg",
+        "title":"肯德基宅急送(徐州沃尔...)",
+        "isBrand":true,
+        "rate":4.7,
+        "sales":237,
+        "startPrice":0,
+        "freight":9,
+        "distance":"641m",
+        "innerTime":"30分钟",
+        "type":"汉堡薯条",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减17元"},
+            {"type":"te","icon" :"特","title":"特价商品5元起"}
+        ]
+
+    },{
+        "img":"/images/shop/1.jpg",
+        "title":"黄记煌三汁焖锅(三胞店)",
+        "isBrand":false,
+        "rate":4,
+        "sales":51,
+        "startPrice":0,
+        "freight":9,
+        "distance":"985m",
+        "innerTime":"30分钟",
+        "type":"麻辣香锅",
+        "promotesale":[
+            {"type":"jian","icon":"减","title":"满20元减11元 满38减13元"},
+            {"type":"pei","icon" :"配","title":"配送费立减2元"},
+            {"type":"zhe","icon":"折","title":"折扣商品5折起"},
+            {"type":"te","icon":"特","title":"特价商品1元起"},
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减7元"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/2.jpg",
+        "title":"叫了个炸鸡吃(金地店)",
+        "isBrand":false,
+        "rate":4.8,
+        "sales":459,
+        "startPrice":15,
+        "freight":0.5,
+        "distance":"1.2km",
+        "innerTime":"30分钟",
+        "type":"炸鸡炸串",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减11元"},
+            {"type":"jian","icon":"减","title":"满38元减8元 满48减20元"},
+            {"type":"pei","icon" :"配","title":"配送费立减3元"},
+            {"type":"sou","icon":"首","title":"首次光顾本店立减3元"},
+            {"type":"te","icon":"特","title":"特价商品9.9起"},
+            {"type":"piao","icon":"票","title":"该商家支持开发票,请在下单时填好"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/3.jpg",
+        "title":"吉祥混沌(复兴苏宁广场店)",
+        "isBrand":false,
+        "rate":4.7,
+        "sales":413,
+        "startPrice":15,
+        "freight":0.5,
+        "distance":"3.25km",
+        "innerTime":"30分钟",
+        "type":"馄饨抄手",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减7元"},
+            {"type":"jian","icon":"减","title":"满20元减2元 满35减7元"},
+            {"type":"pei","icon" :"配","title":"配送费立减3元"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/4.jpg",
+        "title":"满口香龙虾(徐州店)",
+        "isBrand":false,
+        "rate":4.3,
+        "sales":240,
+        "startPrice":15,
+        "freight":0.5,
+        "distance":"1.56km",
+        "innerTime":"30分钟",
+        "type":"龙虾烧烤",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减7元"},
+            {"type":"jian","icon":"减","title":"满20元减2元 满35减7元"},
+            {"type":"pei","icon" :"配","title":"配送费立减3元"},
+            {"type":"te","icon" :"特","title":"特价商品1.99元起"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/5.jpeg",
+        "title":"肯德基宅急送(徐州沃尔...)",
+        "isBrand":true,
+        "rate":4.7,
+        "sales":237,
+        "startPrice":0,
+        "freight":9,
+        "distance":"641m",
+        "innerTime":"30分钟",
+        "type":"汉堡薯条",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减17元"},
+            {"type":"te","icon" :"特","title":"特价商品5元起"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/1.jpg",
+        "title":"黄记煌三汁焖锅(三胞店)",
+        "isBrand":false,
+        "rate":4,
+        "sales":51,
+        "startPrice":0,
+        "freight":9,
+        "distance":"985m",
+        "innerTime":"30分钟",
+        "type":"麻辣香锅",
+        "promotesale":[
+            {"type":"jian","icon":"减","title":"满20元减11元 满38减13元"},
+            {"type":"pei","icon" :"配","title":"配送费立减2元"},
+            {"type":"zhe","icon":"折","title":"折扣商品5折起"},
+            {"type":"te","icon":"特","title":"特价商品1元起"},
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减7元"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/2.jpg",
+        "title":"叫了个炸鸡吃(金地店)",
+        "isBrand":false,
+        "rate":4.8,
+        "sales":459,
+        "startPrice":15,
+        "freight":0.5,
+        "distance":"1.2km",
+        "innerTime":"30分钟",
+        "type":"炸鸡炸串",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减11元"},
+            {"type":"jian","icon":"减","title":"满38元减8元 满48减20元"},
+            {"type":"pei","icon" :"配","title":"配送费立减3元"},
+            {"type":"sou","icon":"首","title":"首次光顾本店立减3元"},
+            {"type":"te","icon":"特","title":"特价商品9.9起"},
+            {"type":"piao","icon":"票","title":"该商家支持开发票,请在下单时填好"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/3.jpg",
+        "title":"吉祥混沌(复兴苏宁广场店)",
+        "isBrand":false,
+        "rate":4.7,
+        "sales":413,
+        "startPrice":15,
+        "freight":0.5,
+        "distance":"3.25km",
+        "innerTime":"30分钟",
+        "type":"馄饨抄手",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减7元"},
+            {"type":"jian","icon":"减","title":"满20元减2元 满35减7元"},
+            {"type":"pei","icon" :"配","title":"配送费立减3元"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/4.jpg",
+        "title":"满口香龙虾(徐州店)",
+        "isBrand":false,
+        "rate":4.3,
+        "sales":240,
+        "startPrice":15,
+        "freight":0.5,
+        "distance":"1.56km",
+        "innerTime":"30分钟",
+        "type":"龙虾烧烤",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减7元"},
+            {"type":"jian","icon":"减","title":"满20元减2元 满35减7元"},
+            {"type":"pei","icon" :"配","title":"配送费立减3元"},
+            {"type":"te","icon" :"特","title":"特价商品1.99元起"}
+        ]
+
+    },
+    {
+        "img":"/images/shop/5.jpeg",
+        "title":"肯德基宅急送(徐州沃尔...)",
+        "isBrand":true,
+        "rate":4.7,
+        "sales":237,
+        "startPrice":0,
+        "freight":9,
+        "distance":"641m",
+        "innerTime":"30分钟",
+        "type":"汉堡薯条",
+        "promotesale":[
+            {"type":"xin","icon":"新","title":"饿了么新用户首单立减17元"},
+            {"type":"te","icon" :"特","title":"特价商品5元起"}
+        ]
+
+    }
+]
