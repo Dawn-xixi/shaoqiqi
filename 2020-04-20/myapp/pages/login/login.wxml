@@ -1,0 +1,15 @@
+<form bindsubmit="onsubmit">
+  <view>
+    <label for="username">
+      <input id="username" name="username" type="text" placeholder="请输入用户名" confirm-type="next" value=""></input>
+    </label>
+  </view>
+  <view>
+    <label for="password">
+      <input id="password" name="password" type="text" placeholder="请输入密码" confirm-type="send" value=""></input>
+    </label>
+  </view>
+  <view>
+    <button form-type="submit" type="primary">提交</button>
+  </view>
+</form>

@@ -1,0 +1,5 @@
+<!--pages/mypage/mypage.wxml-->
+<text>欢迎登录{{username}}</text>
+
+
+
