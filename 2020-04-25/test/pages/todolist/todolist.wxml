@@ -1,0 +1,13 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class="header">文章列表</view>
+  <view class="todos">
+   <view class="todo {{item.isok ? 'todo-del' : '' }}" wx:for="{{todos}}" wx:key="index">
+   <label for="todo_1">
+   <text>{{item.title}}</text>
+   </label>
+   <view id="{{index}}" bindtap="todoDel" class="del-button" >删除</view>
+  </view>
+  </view>
+  <navigator url="/pages/addtodo/addtodo">添加文章列表</navigator>
+</view>

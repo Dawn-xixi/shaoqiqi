@@ -1,0 +1,54 @@
+.header{
+  font-size: 60rpx;
+  text-align: center;
+  border-bottom: 2rpx solid #666;
+  margin-bottom: 20rpx;
+  padding-bottom: 20rpx;
+  width: 100%;
+}
+label{
+  text-align: center;
+  margin: 10rpx  400rpx;
+ margin-left: 0px;
+}
+.todos{
+
+  padding: 80rpx 0rpx;
+}
+.container{
+  padding: 0rpx;
+}
+.todo{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+ .buttons{
+  height: 100%;
+display: flex;
+flex-direction: row;
+
+} 
+.del-button{
+  color: #Fff;
+  background-color:#e64340;
+  padding: 3rpx 8rpx;
+
+
+}
+
+navigator{
+  background-color:#e64340;
+  color: azure;
+
+  line-height: 80rpx;
+  text-align: center;
+  width: 50%;
+  height: 100rpx;
+  border-radius: 10rpx;
+}
+.navigator-hover{
+  color: cadetblue;
+  background-color: rgb(248, 147, 143);
+}

@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="header">添加文章</view>
+  <view class="todos">
+    <view class="main">
+      <form bindsubmit="add">
+        <label>
+        <input name="title" placeholder="请输入标题"/>
+         </label>
+         <button form-type="submit" type="primary">添加</button>
+      </form>
+    </view>
+   </view>
+</view>

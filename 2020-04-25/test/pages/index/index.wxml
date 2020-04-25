@@ -1,0 +1,8 @@
+<button type="primary" bindtap="addItemFn">添加</button>  
+<button type="warn" bindtap="delItemFn" >删除</button>  
+<scroll-view class="scroll">  
+  <view class="classname"></view>  
+  <block wx:for="{{lists}}" wx:key="*this">  
+    <view class="item" data-index="{{index}}" >item {{index}}--{{item.text}}</view>  
+  </block>  
+</scroll-view>   

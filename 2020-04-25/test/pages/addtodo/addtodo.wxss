@@ -1,0 +1,30 @@
+.header{
+  font-size: 60rpx;
+  text-align: center;
+  border-bottom: 2rpx solid #666;
+  margin-bottom: 20rpx;
+  padding-bottom: 20rpx;
+  width: 100%;
+}
+label{
+  margin: 10rpx  10rpx;
+  padding-left: -340rpx;
+}
+.todos{
+  padding: 0 20rpx;
+}
+.container{
+  padding: 0rpx;
+}
+.todo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+ .buttons{
+display: flex;
+flex-direction: row;
+height: 100%;
+padding-left: 400rpx;
+} 
